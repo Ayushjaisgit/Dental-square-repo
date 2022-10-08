@@ -265,6 +265,10 @@ Responsive Codes
   display: none;
 }
 
+.forshadow{
+  box-shadow: 5px 10px #89dfdd;
+}
+
 
 /* ---------------Scroll bar------------  */
 
