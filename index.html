@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dental Square - Home</title>
+    <link rel="stylesheet" href="/style.css" />
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.0/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <header class="header">
+        <img src="img/logo.jpg" alt="thapa technical logo" class="logo" />
+
+        <nav class="nav-bar">
+            <ul class="navbar-list">
+                <li><a class="navbar-link" id="links" href="#home">Home</a></li>
+                <li><a class="navbar-link" id="links" href="#about">About</a></li>
+                <li><a class="navbar-link" id="links" href="#reviews">Reviews</a></li>
+                <li><a class="navbar-link" id="links" href="#contactpage">Contact</a></li>
+
+            </ul>
+        </nav>
+
+        <div class="mobile-navbar-btn">
+            <ion-icon name="menu-outline" class="mobile-nav-icon"></ion-icon>
+            <ion-icon name="close-outline" id="closebtn" class="mobile-nav-icon"></ion-icon>
+        </div>
+    </header>
+
+    <!-- hero section  -->
+    <section class="text-gray-600 body-font" id="home">
+        <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+            <div
+                class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center hed-1">
+                <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-white ">LET US BRIGHTEN
+                    <br class="hidden lg:inline-block  ">YOUR SMILE
+                </h1>
+                <p class="mb-8 leading-relaxed  hed-1"> Dental Square brings you a modern, calming experience
+                    that leaves your teeth healthy and your soul rejuvenated.</p>
+                <div class="flex justify-center">
+                    <a href="#contactpage"> <button class="herobtn">Book an appointment</button> </a>
+
+                </div>
+            </div>
+            <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+                <img class="object-cover object-center rounded" id="homeimg" alt="hero" src="img/home-bg.jpg">
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- about section  -->
+
+    <section class="about ">
+
+
+        <div class="container">
+
+            <div class="row align-items-center">
+
+                <div class="col-md-6 image">
+                    <img src="img/homebg.jpg" class="  mb-5 mb-md-0  border-green-400 rounded-2 aboutimg " id="botimg"
+                        alt="">
+                </div>
+
+                <div class="col-md-6 content">
+                    <h3> True Healthcare For Your Family</h3>
+                    <p class="text-gray-800">Discover a different kind of dental experience — one that creates lasting
+                        relationships with our patients of all ages and backgrounds. Our dentists combine high-quality
+                        treatments and calm, comfortable dental care with a knowledgeable team that treats you like
+                        family.Request an appointment today and join our family of patients <br> for life.</p>
+                    <div class="aboutbtn">
+                        <a href="#contactpage" class="herobtn ">Make appointment</a>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- --------------Doctor Section----------- -->
+
+    
+    <h1 class="abouth1" id="about">About us</h1>
+
+    <section class="text-gray-600 body-font">
+        <div class="container px-5 py-24 mx-auto flex flex-col">
+            <div class="lg:w-4/6 mx-auto">
+                <div class="rounded-lg h-64 overflow-hidden">
+                    <img alt="content" class="object-cover object-center h-full w-full" src="img/bg.jpeg">
+                </div>
+                <div class="flex flex-col sm:flex-row mt-10">
+                    <div class="sm:w-1/3 text-center sm:pr-8 sm:py-8">
+                        <div
+                            class="w-20 h-20 rounded-full inline-flex items-center justify-center bg-gray-200 text-gray-400">
+                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                stroke-width="2" class="w-10 h-10" viewBox="0 0 24 24">
+                                <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
+                                <circle cx="12" cy="7" r="4"></circle>
+                            </svg>
+                        </div>
+                        <div class="flex flex-col items-center text-center justify-center">
+                            <h2 class="font-medium title-font mt-4 text-gray-100 text-lg">Dr. Yash Jaiswal</h2>
+                            <div class="w-12 h-1 bg-green-500 rounded mt-2 mb-4"></div>
+                            <p class="text-base">BDS | Dehradun</p>
+                        </div>
+                    </div>
+                    <div
+                        class="sm:w-2/3 sm:pl-8 sm:py-8 sm:border-l border-gray-200 sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 text-center sm:text-left">
+                        <p class="leading-relaxed text-lg mb-4">We strive towards perfection which is why all our cases are based on the concept of Digital Smile Design. In our work we are led by modern protocols of digital dentistry, modern technology and we continuously educate ourselves.</p>
+                        <!-- <a class="text-indigo-500 inline-flex items-center">Learn More -->
+                        <!-- <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24"> -->
+                        <path d="M5 12h14M12 5l7 7-7 7"></path>
+                        </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+      <!------------------ statics-------------------->
+
+      <section class="text-gray-800 body-font" id="about">
+        <div class="container px-5 py-24 mx-auto">
+            <div class="flex flex-wrap -m-4 text-center">
+                <div class="p-4 sm:w-1/4 w-1/2">
+                    <h2 class="title-font font-medium sm:text-4xl text-3xl text-gray-500">5000 +</h2>
+                    <p class="leading-relaxed text-gray-600 ">Patients</p>
+                </div>
+                <div class="p-4 sm:w-1/4 w-1/2">
+                    <h2 class="title-font font-medium sm:text-4xl text-3xl text-gray-500">2300 +</h2>
+                    <p class="leading-relaxed text-gray-600">RCT</p>
+                </div>
+                <div class="p-4 sm:w-1/4 w-1/2">
+                    <h2 class="title-font font-medium sm:text-4xl text-3xl text-gray-500">1350 +</h2>
+                    <p class="leading-relaxed text-gray-600">Tooth Implants</p>
+                </div>
+                <div class="p-4 sm:w-1/4 w-1/2">
+                    <h2 class="title-font font-medium sm:text-4xl text-3xl text-gray-500">1100 +</h2>
+                    <p class="leading-relaxed text-gray-600">Tooth Alignment</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Trusted by --------------  -->
+
+    <section class="text-gray-600 body-font" id="reviews">
+        <h1 class="text-3xl font-medium title-font text-gray-400 mb-12 text-center">Testimonials</h1>
+        <div class="container px-5 py-24 mx-auto">
+            <div class="flex flex-wrap -m-4">
+                <div class="lg:w-1/3 lg:mb-0 mb-6 p-4">
+                    <div class="h-full text-center">
+                        <img alt="testimonial"
+                            class="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100"
+                            src="https://dummyimage.com/302x302">
+                        <p class="leading-relaxed">What a nice new facility! Coming into the office, it is clean,
+                            bright, and nicely appointed. The staff is professional and greeted me right away. I liked
+                            being able to get the new patient paperwork to have completed before coming to their office.
+                            The wait was under 5 minutes. Dr. Yash Jaiswa BDS Uni First is professional, friendly, and
+                            attentive. The equipment is clean, new, and up to date. The computer screen is right in
+                            front of you, so you can see what they see. They also explain it to you very informative.”
+                        </p>
+                        <span class="inline-block h-1 w-10 rounded bg-green-500 mt-6 mb-4"></span>
+                        <h2 class="text-gray-500 font-medium title-font tracking-wider text-sm">HOLDEN CAULFIELD
+                        </h2>
+                        <p class="text-gray-500">Root-Canal-Treatment</p>
+                    </div>
+                </div>
+                <div class="lg:w-1/3 lg:mb-0 mb-6 p-4">
+                    <div class="h-full text-center">
+                        <img alt="testimonial"
+                            class="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100"
+                            src="https://dummyimage.com/300x300">
+                        <p class="leading-relaxed">I have undergone root-canal surgery and molar extraction from Dr.Yash
+                            Jaiswal. Would highly recommend him to anybody who is in need of any dental procedures.
+                            During my consultation, he very patiently explained the procedures that had to be done. The
+                            only issue that really concerned me was the pain associated with these treatments, but Dr.
+                            Yash assured me that there would virtually be no pain at all. And contrary to popular
+                            belief, the root canal surgery and the molar extraction were almost painless. </p>
+                        <span class="inline-block h-1 w-10 rounded bg-green-500 mt-6 mb-4"></span>
+                        <h2 class="text-gray-500 font-medium title-font tracking-wider text-sm">ALPER KAMU</h2>
+                        <p class="text-gray-500">Molar extraction </p>
+                    </div>
+                </div>
+                <div class="lg:w-1/3 lg:mb-0 p-4">
+                    <div class="h-full text-center">
+                        <img alt="testimonial"
+                            class="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100"
+                            src="https://dummyimage.com/305x305">
+                        <p class="leading-relaxed">I had visited at least 3 other dentists before I went to Dr. Yash
+                            with my dental problem. All the other dentists charged me heavily and failed to relieve me
+                            of the terrible tooth ache. Dr. Yash's treatment plan was spot on and within 2 visits I was
+                            relieved of my pain which others couldn't treat for almost 3 months. he is truly a skilled
+                            dentist and I am glad that I found the best dentist for me and my family.
+                            I continue to recommend Dr.Yash as the best dentist to all my relatives, friends and others
+                            too who are searching for a dentist.
+                        </p>
+                        <span class="inline-block h-1 w-10 rounded bg-green-500 mt-6 mb-4"></span>
+                        <h2 class="text-gray-500 font-medium title-font tracking-wider text-sm">HENRY LETHAM</h2>
+                        <p class="text-gray-500">Tooth Implant</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- adrress and contact section  -->
+
+    <section class="text-gray-600 body-font relative" id="contactpage">
+        <div class="absolute inset-0 bg-">
+            <iframe width="100%" height="100%" frameborder="0" marginheight="0" marginwidth="0" title="map"
+                scrolling="no"
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1298.5990982662615!2d81.81981349689842!3d25.439970871733554!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4c9818019a3576dc!2sDental%20Square!5e0!3m2!1sen!2sin!4v1659135061004!5m2!1sen!2sin"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="container px-5 py-24 mx-auto flex">
+            <div
+                class="lg:w-1/3 md:w-1/2 bg-black rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0 relative z-10 shadow-md">
+                <h2 class="text-green-500 text-lg mb-1 font-medium title-font">Make Appointment</h2>
+                <p class="leading-relaxed mb-5 text-gray-600">Post-ironic portland shabby chic echo park, banjo
+                    fashion axe</p>
+                <form action="" name="appointment-form">
+                    <div class="Form-group">
+
+                        <div class="relative mb-4">
+                            <div class="relative">
+                                <label for="Name" class="leading-2 text-sm text-gray-600">Name</label>
+                                <input type="text" id="text" name="Patient-Name"
+                                    class="w-full bg-white rounded border border-gray-300 focus:border-green-500 focus:ring-2 focus:ring-green-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                                    required>
+                            </div>
+
+                            <label for="email" class="leading-7 text-sm text-gray-600">Email</label>
+                            <input type="email" id="email" name="Patient-Email"
+                                class="w-full bg-white rounded border border-gray-300 focus:border-green-500 focus:ring-2 focus:ring-green-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                                required>
+
+                            <label for="Number" class="leading-7 text-sm text-gray-600">Phone no.</label>
+                            <input type="text" name="Contact-no"
+                                class="w-full bg-white rounded border border-gray-300 focus:border-green-500 focus:ring-2 focus:ring-green-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                                required>
+                        </div>
+                        <div class="relative mb-4">
+                            <label for="message" class="leading-7 text-sm text-gray-600">Treatment</label>
+                            <textarea id="message" name="Treatment"
+                                class="w-full bg-white rounded border border-gray-300 focus:border-green-500 focus:ring-2 focus:ring-green-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
+                                required></textarea>
+                        </div>
+                        <div class="relative mb-4 rounded border border-gray-300 bg-white">
+                            <!-- <input type="number" name="number" placeholder="enter your number" class="box" required> -->
+                            <span class="bg-white text-black-400">Appointment date : </span>
+                            <input type="date" name="Appointment-date" class="box bg-white" required>
+                            <!-- <input type="submit" value="make appointment" name="submit" class="link-btn"> -->
+                        </div>
+                        <button
+                            class="text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg"
+                            onclick="successFunction()">Make
+                            Appointment</button>
+                        <!-- <p class="text-xs text-gray-500 mt-3 ">Your Appointment</p> -->
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- --------------footer----------- -->
+
+
+
+
+
+    <footer class="text-gray-600 body-font">
+        <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
+            <a href="#home"
+                class="flex title-font font-medium items-center md:justify-start justify-center text-gray-500">
+                <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+                </svg>
+                <a href="index.html" class="footerimg"><img src="img/logo.jpg" alt=""></a>
+            </a>
+            <a href="tel:9696337788" class="contactno"> Contact Us - 9696337788 | </a>
+            <p class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">©
+                2021 - Dental Square 
+                <!-- <a href="https://Brandmove.in" class="text-gray-600 ml-1 text-decoration-none" rel="noopener noreferrer"
+                target="_blank">Made with <i class="fa fa-heart" aria-hidden="true"></i> by - Brandmove</a> -->
+            </p>
+            <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+                <!-- <a class="text-gray-500">
+                    <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        class="w-5 h-5" viewBox="0 0 24 24">
+                        <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                    </svg>
+                </a> -->
+                <a class="ml-3 text-gray-500">
+                </a>
+                <a href="https://instagram.com/dr.dentalsquare?igshid=YmMyMTA2M2Y=" class="ml-3 text-gray-500">
+                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                        stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                        <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                        <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+                    </svg>
+                </a>
+                <a class="ml-3 text-gray-500">
+                </a>
+            </span>
+        </div>
+    </footer>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
+<!-- ======================================== 
+          Our JavaScript Section Start  
+    ========================================  -->
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+<!-- 
+    <form name="submit-to-google-sheet">
+        <input name="email" type="email" placeholder="Email" required>
+        <button type="submit">Send</button>
+      </form> -->
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxTfztYB0naQV_6QyZG8oUgzYwBeomRIX_76Fext7k25AlXCX--9wWHasDYpV53_UHr4g/exec'
+    const form = document.forms['appointment-form']
+
+    form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+            .then(response => console.log('Success!', response))
+            .catch(error => console.error('Error!', error.message))
+        function successFunction() {
+            console.log("alerss")
+            alert(" Thank you!Your Appointment is Submitted Successfully");
+        }
+    })
+    function successFunction() {
+            console.log("alert")
+            alert(" Thank you! Your Appointment is Submitted Successfully We will Contact You Shortly ");
+        }
+</script>
+
+<script src="index.js"></script>
+
+<!-- <script>
+    function successFunction() {
+        console.log("alerss")
+        alert(" Thank you!Your Appointment is Submitted Successfully");
+    }
+</script> -->
+
+
+</body>
+
+
+
+
+</html>
