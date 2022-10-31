@@ -78,6 +78,10 @@ body {
   color: rgb(8, 255, 206);
 }
 
+#closebtn{
+  color: #000000;
+}
+
 .mobile-nav-icon[name="close-outline"] {
   display: none;
 }
